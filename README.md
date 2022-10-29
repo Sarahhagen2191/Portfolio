@@ -1,2 +1,2 @@
-# Sarah_Hagen_-Portfolio
+# Sarah_Hagen_Portfolio
 My Portfolio Welcome Page
