@@ -136,7 +136,7 @@ nav a {
 }
 
 
-/* Container Grid for Work  */
+/* Container Grid for Work Section */
 
 #workGrid {
   display: grid;
@@ -218,14 +218,18 @@ nav a {
 /* Contact Page CSS */
 
 .page-section2 {
-    margin: 0px 10%;
+    margin: 0px ;
     display: flex;
     flex-direction: row;
   }
 
-
-
-
+  .subHeading3 {
+    font-size: 32px;
+    color: white;
+    border-right: 2px solid whitesmoke;
+    padding-right: 10px;
+    margin: 10px
+  }
 
 /* Footer CSS */
 .footer {
@@ -234,7 +238,6 @@ nav a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
-
 
 .footerfont {
   font-size: 20px;
