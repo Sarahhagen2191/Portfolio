@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'Poppins', sans-serif;
   background-color: grey;
 }
@@ -29,16 +31,16 @@ header h1 {
 
 /* Navigation CSS */
 
-.navContainer{
+.navContainer {
   display: flex;
   justify-content: center;
 }
 
-nav{
+nav {
   display: flex;
   width: 50%;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   color: white;
   font-size: 30px;
 
@@ -90,7 +92,7 @@ nav a {
 }
 
 #headline {
-  border: 5px solid #FF6200;
+  border: 5px solid tomato;
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   right: -0px;
@@ -118,7 +120,7 @@ nav a {
 .page-section1 {
   margin: 0px 5.6%;
   display: flex;
-  
+
 }
 
 #Paragraph {
@@ -192,7 +194,6 @@ nav a {
   border-right: 2px solid whitesmoke;
   padding-right: 10px;
   margin: 10px
-
 }
 
 .gridheading {
@@ -218,18 +219,18 @@ nav a {
 /* Contact Page CSS */
 
 .page-section2 {
-    margin: 0px ;
-    display: flex;
-    flex-direction: row;
-  }
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
 
-  .subHeading3 {
-    font-size: 32px;
-    color: white;
-    border-right: 2px solid whitesmoke;
-    padding-right: 10px;
-    margin: 10px
-  }
+.subHeading3 {
+  font-size: 32px;
+  color: white;
+  border-right: 2px solid whitesmoke;
+  padding-right: 10px;
+  margin: 10px
+}
 
 /* Footer CSS */
 .footer {
@@ -242,4 +243,3 @@ nav a {
 .footerfont {
   font-size: 20px;
 }
-
